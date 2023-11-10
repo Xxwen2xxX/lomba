@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        body{
+            background-color: #312f38;
+            height: 400vh;
+            width: 100%;
+        }
+
+        .back1{
+            z-index: 0;
+            background-color: aliceblue;
+            height: 50%;
+        }
+
+        
+
+        .content{
+            position: fixed;
+            width: 90%;
+            height: 75px;
+            border-radius: 25px;
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            left: 55px;
+            top: 10px;
+        }
+
+        .circles{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .circle{
+            background-color: black;
+            width: 10px;
+            height: 10px;
+            border-radius: 5px;
+            border: 1px solid black;
+        }
+        
+        .noncircles{
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .noncircles > img{
+            width: 60px;
+            height: 60px;
+        }
+
+        .text{
+            display: flex;
+            flex-direction: row;
+            margin-top: 15px;
+            gap: 30px;
+        }
+
+        .text > a{
+            font-size: 30px;
+            text-decoration: none;
+            color: black;
+        }
+
+        .text > .home{
+            color: red;
+        }
+
+        .bahasa{
+            margin-top:100px;
+            margin-left: 75px;
+        }
+
+        .bahasa > h1{
+            font-size: 50px;
+            color: red;
+        }
+
+        #home-page{
+            display: flex;
+            justify-content: space-between;
+            width: 1000px;
+            margin-top: 400px;
+            margin-left: 75px;
+        }
+
+        #home-page h1{
+            color: red;
+            font-size: 50px;
+        }
+
+        #home-page p{
+            font-size: 30px;
+            margin-top: 20px;
+            width: 400px;
+            color: white;
+        }
+
+        #home-page .rec{
+            /* z-inde   x: 1; */
+            height: 400px;
+
+        }
+
+        #home-page  img{
+            float: right;
+            height: 400px;
+            box-shadow:-16px 16px #888888; ;
+        }
+
+        .tujuan{
+            margin-top: 400px;
+        }
+
+        .tujuan{
+            text-align: center;
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <span class="back1"></span>
+    <div class="content">
+        <div class="circles">
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="noncircles">
+            <img src="download (2).jpg" alt="">
+        <div class="text">
+            <a href="#" class="home">Home</a>
+            <a href="#" class="about">About</a>
+            <a href="#" class="contact">Contact</a>
+        </div>
+        </div>
+        <div class="circles">
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+    <div class="bahasa">
+        <h1>Bulan Bahasa di</h1>
+        <h1>Iganatius Global School</h1>
+    </div>
+    <div id="home-page">
+        <div class="te">
+            <h1>APA ITU BULAN</h1>
+            <h1>BAHASA?</h1>
+            <p>dikutip dari situs kemdikbud, Bulan Bahasa dan Sastra Indonesia adalah kegiatan setiap oktober yang berkaitan dengan peringatan Hari Sumpah Pemuda</p>
+        </div>
+        <div class="image">
+            <span class="rec"></span>
+            <img src="1699584992341.jpg" alt="">
+        </div>
+    </div>
+    <div class="tujuan">
+        <h1>TUJUAN ACARA BULAN BAHASA</h1>
+        <div class="arrow">
+            <div class="rect"></div>
+            <div class="tri"></div>
+        </div>
+    </div>
+</body>
+</html>
